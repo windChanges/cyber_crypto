@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1200px) {
+  .box h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .box h1 {
+    font-size: 1rem;
+  }
+}
+
+body {
+  background-color: #151937;
+  color: #fff;
+}
+
+.text-gradient {
+  background-image: linear-gradient(to right, red, blue);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-tranding {
+  background-image: linear-gradient(to right, red, pink);
+  padding: 1rem 3rem;
+  border-radius: 30px;
+}
